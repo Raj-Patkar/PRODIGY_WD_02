@@ -1,0 +1,146 @@
+
+body{
+    background-image: url(time.jpg);
+}
+body{
+    
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;  
+}
+
+.container{
+    text-align: center;
+   display: block;
+   margin: auto;
+    width: 500px;
+   
+    padding: 22px;
+    margin-top:  70px;
+    
+}
+
+.container .txt{
+    font-size: 80px;
+    color: rgb(9, 6, 6);
+    display: flex;
+    margin-left: 12%;
+    font-family:serif
+
+    
+
+}
+
+.txt{
+    height: 100px;
+    width: 402px;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    display: flex;
+    margin: auto;
+    margin-top: 12px;
+    font-weight: 700;
+    font-size: 60px;
+    border-radius: 20px; 
+}
+
+
+
+button {
+    padding: 1.3em 3em;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    
+    margin: auto;
+    margin-top:  20px;
+  }
+  
+  button:hover {
+    background-color: rgba(57, 69, 237, 0.397);
+    box-shadow: 0px 15px 20px rgba(57, 69, 237, 0.397);
+    color: #fff;
+    transform: translateY(-7px);
+  }
+  
+  button:active {
+    transform: translateY(-1px);
+  } 
+
+  .buttons{
+    text-align: center;
+    margin-top: 2px;
+  }
+
+  h1 {
+    background-color: #101036f5;
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+    
+    border-radius: 10px;
+    box-shadow: 3px 3px 0px rgb(3, 3, 39);
+}
+
+#lapRecord {
+    margin-top: 20px;
+}
+
+#laps {
+    
+    scroll-behavior: smooth;
+    background-color: #101036f5;
+    border-radius: 6px;
+    height: 15rem;
+    font-family: "nunito", "poppins", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+    overflow-y: scroll;
+    box-shadow: 4px 4px 0px rgb(3, 3, 39);
+}
+
+@media screen and (max-width: 600px)
+{
+  .container .txt{
+    font-size: 50px;
+    margin-left: 25px;
+  }
+  .txt{
+    width:255px;
+  }
+  body{
+    background-image: url(time2.jpg);
+}
+
+
+
+.container{
+  
+  width: 50px;
+ display: block;
+ margin: auto;
+ padding: 10px;
+ margin-top:  70px;
+ margin-left: 20px;
+  
+}
+
+
+  
+ 
+}
